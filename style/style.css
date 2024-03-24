@@ -1,0 +1,859 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Medium.ttf) format("ttf");
+    font-weight: 600;
+}
+
+.wrap {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #516c81;
+    height: 100px;
+    width: 100vw;
+}
+
+header .wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    width: 289px;
+    margin-right: 112px;
+}
+
+.menu {
+    width: 518px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 112px;
+}
+
+.menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.btn {
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding: 14px 26.5px;
+    text-wrap: nowrap;
+}
+
+/* перший блок */
+.page_1 {
+    background: url(../img/bg.jpg) no-repeat;
+    background-position: center 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 799px;
+}
+
+.page_1 p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+    text-transform: uppercase;
+}
+
+.bycvu_1 {
+    text-align: right;
+    margin: 76px 0 75px 0;
+}
+
+.bycvu_2 {
+    text-align: right;
+}
+
+.center_blok {
+    background: url(../img/figura.png) 100% 100% no-repeat;
+    width: 574px;
+    height: 325px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.center_blok h1 {
+    color: #fff;
+    text-align: right;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+
+.center_blok a {
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #fff;
+    padding: 14px 26.5px;
+    padding-right: 29px;
+    text-wrap: nowrap;
+    margin-right: 24px;
+}
+
+.center_blok a::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/strelka.png) no-repeat;
+    position: relative;
+    left: 15px;
+    top: 2px;
+}
+
+.center_blok p {
+    margin-right: 24px;
+}
+
+.bycvu_3 {
+}
+
+.line {
+    width: 309px;
+    height: 10px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.bottom_block .bycvu_4 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+.bottom_block {
+    width: 309px;
+    position: relative;
+    bottom: 60px;
+}
+
+/*початок другого блоку  */
+.page_2 {
+    background: #273947;
+}
+
+.page_2 h2 {
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.page_2 p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+    margin-top: 113px;
+    margin-right: 30px;
+}
+
+.bot_block {
+    display: flex;
+}
+
+.nutka {
+    background: #f07f18;
+    margin-bottom: 116px;
+    width: 570px;
+}
+
+.page_2 img {
+    width: 550px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*  */
+
+.page_3 {
+    background: #273947;
+}
+
+.premium {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.premium-element {
+    display: flex;
+    width: 392px;
+    margin-bottom: 50px;
+}
+
+.page_3 h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 70px;
+}
+
+.premium_text p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 15px;
+}
+
+.premium_text h3 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.premium-element img {
+    width: 70px;
+    margin-right: 30px;
+}
+
+/* Друга частина блоку */
+
+.as {
+    padding-top: 116px;
+    display: flex;
+}
+
+.as .nutka {
+    margin-right: 48px;
+    margin-top: 20px;
+}
+
+.as p {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.as .nutka img {
+    right: 20px;
+    bottom: 20px;
+    position: relative;
+    width: 550px;
+}
+
+/* ЧЕТВЕРТИЙ БЛОК */
+
+.page_4 {
+    background-color: #273947;
+}
+
+.page_4 h2 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+}
+
+.img_grope {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.grope_element {
+    margin-bottom: 40px;
+}
+
+.grope_element div {
+    background: #f07f18;
+    width: 279px;
+    height: 250px;
+}
+
+.grope_element img {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page_4 p {
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    width: 289px;
+    height: 90px;
+    margin-top: 25px;
+}
+
+/* кнопка */
+.knop {
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #fff;
+    padding: 14px 26.5px;
+    padding-right: 29px;
+    text-wrap: nowrap;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.knop::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/strelka.png) no-repeat;
+    position: relative;
+    left: 15px;
+    top: 3px;
+    transform: rotate(90deg);
+}
+
+/* 5 блок */
+.page_5 {
+    background-color: #273947;
+}
+
+.page_5 h2 {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.kar_grup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.kar_element {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kar_grup div {
+    background-color: #0f1e2cb2;
+    width: 289px;
+    height: 350px;
+}
+
+.kar_element img {
+    width: 108px;
+    margin-bottom: 50px;
+}
+
+.page_5 p {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 205px;
+    height: 27px;
+}
+
+/* блок 6 */
+.page_6 {
+}
+.page_6 .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page_6 h2 {
+    color: #273947;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 425px;
+    padding-top: 100px;
+}
+
+.page_6 p {
+    color: #273947;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    width: 307px;
+    padding-top: 100px;
+}
+
+.comp_grup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 116px;
+    margin-bottom: 132px;
+}
+
+.comp_grup img {
+    width: 200px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 94px;
+}
+
+/* блок 7 */
+.page_7 {
+    display: flex;
+}
+.karta {
+    background: #162634;
+    width: 50%;
+    height: 940px;
+}
+.page_7 iframe {
+    width: 50%;
+    height: 940px;
+}
+
+/* падвал */
+
+.padval {
+    background: #516c81;
+    display: flex;
+}
+.start {
+}
+.padval .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.start img {
+    width: 186px;
+    height: 23px;
+    margin-top: 100px;
+}
+.start p {
+    color: #e6e6e6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 288px;
+    margin-top: 50px;
+}
+
+.center {
+    margin-top: 104px;
+}
+.center h4 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 37px;
+}
+.center ul {
+    padding: 0;
+}
+.center ul li {
+    margin-top: 10px;
+}
+.center ul li a {
+    color: #e6e6e6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.end {
+    margin-top: 104px;
+    position: relative;
+}
+.end h4 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.end P {
+    color: #fff;
+    text-align: right;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 38px;
+    display: flex;
+}
+.end a {
+    color: #e6e6e6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 38px;
+    display: block;
+    display: flex;
+}
+#graf {
+    position: absolute;
+    right: 10px;
+}
+#sulka_1::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background: url(../img/phone.png) no-repeat center;
+    display: block;
+    margin-right: 12px;
+}
+#sulka_2::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background: url(../img/map.png) no-repeat center;
+    display: block;
+    margin-right: 12px;
+    position: relative;
+    bottom: 2px;
+}
+#sulka_3::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background: url(../img/wats_1.png) no-repeat center;
+    display: block;
+    margin-right: 12px;
+    position: relative;
+    bottom: 2px;
+}
+
+/* адаптыв */
+
+@media screen and (max-width: 1150px) {
+    .logo {
+        margin-right: 60px;
+        margin-left: 20px;
+    }
+    .menu {
+        width: 489px;
+    }
+    .wrap {
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        margin-right: 30px;
+        margin-left: 15px;
+    }
+    .menu {
+        width: 400px;
+        margin-right: 50px;
+    }
+    .btn {
+        margin-right: 10px;
+    }
+
+    /* тіло сайта */
+    .bycvu_1 {
+        margin-right: 10px;
+    }
+
+    .bycvu_3 {
+        margin-left: 10px;
+    }
+    .line {
+        margin-left: 10px;
+    }
+    .bottom_block .bycvu_4 {
+        margin-left: 10px;
+    }
+    .page_2 img {
+        width: 360px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .nutka {
+        margin-right: 10px;
+    }
+    .page_2 p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .page_2 h2 {
+        margin-left: 10px;
+        font-size: 42px;
+    }
+    .premium {
+        justify-content: space-around;
+    }
+    .page_3 h2 {
+        text-align: center;
+    }
+    .page_3 .nutka img {
+        width: 360px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .page_3 .nutka {
+        margin-left: 20px;
+    }
+    .as p {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .as {
+        padding-top: 70px;
+    }
+    .img_grope {
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .page_4 h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .img_grope {
+        margin-bottom: 0;
+    }
+    .kar_grup {
+        justify-content: space-around;
+    }
+    .page_5 h2 {
+        text-align: center;
+        margin-bottom: 70px;
+        padding-top: 70px;
+        font-size: 42px;
+    }
+    .comp_grup {
+        justify-content: space-around;
+    }
+    .page_6 h2 {
+        font-size: 42px;
+        margin-left: 10px;
+    }
+    .page_6 p {
+        margin-right: 10px;
+    }
+    .page_7 {
+        flex-direction: column-reverse;
+    }
+    .page_7 iframe {
+        width: 100%;
+    }
+    .karta {
+        width: 100%;
+    }
+    .center ul {
+        padding-left: 0;
+    }
+    .padval {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        width: 244px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+    .btn {
+        padding: 7px 9.5px;
+        display: none;
+    }
+    .menu {
+        margin-right: 39px;
+        display: none;
+    }
+    .menu li a {
+        font-size: 13px;
+    }
+    .premium {
+        justify-content: left;
+        margin-left: 10px;
+    }
+    .page_3 h2 {
+        margin-bottom: 53px;
+    }
+    .nutka {
+        margin-right: 10px;
+    }
+    .end P {
+        text-align: left;
+    }
+    .start p {
+        margin-top: 37px;
+        margin-right: 10px;
+    }
+    .premium-element {
+        width: 370px;
+    }
+    .premium-element img {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .center_blok {
+        width: 404px;
+        height: 300px;
+        background-size: 80% 100%;
+    }
+    .center_blok h1 {
+        font-size: 31px;
+        text-align: left;
+        margin-right: 0;
+    }
+    .bottom_block {
+        margin-top: 40px;
+        bottom: 0;
+    }
+    .bycvu_2 {
+        text-align: left;
+    }
+    .center_blok a {
+        margin: 0 auto;
+    }
+    .page_2 h2 {
+        padding-top: 60px;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .bot_block {
+        flex-direction: column-reverse;
+    }
+    .nutka {
+        width: 360px;
+        margin: 0 auto;
+    }
+    .page_3 h2 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+    .as {
+        display: inline;
+    }
+    .as p {
+        margin-left: 10px;
+    }
+    .page_6 h2 {
+        text-align: center;
+    }
+    .page_6 p {
+        width: 100%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .start p {
+        width: 100%;
+        margin-right: 0;
+    }
+    .padval .wrap {
+        display: inline;
+    }
+    .start {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .start img {
+        width: 240px;
+
+        height: auto;
+    }
+    .page_3 .nutka {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center * {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 200px;
+    }
+}
