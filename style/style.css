@@ -521,7 +521,6 @@ header .wrap {
     margin-bottom: 37px;
 }
 .center ul {
-    padding: 0;
 }
 .center ul li {
     margin-top: 10px;
@@ -794,62 +793,67 @@ header .wrap {
     .center_blok a {
         margin: 0 auto;
     }
-    .page_2 h2 {
+    .page_2 h2{
         padding-top: 60px;
         text-align: center;
         margin-left: 0;
         margin-bottom: 25px;
     }
-    .bot_block {
+    .bot_block{
         flex-direction: column-reverse;
     }
-    .nutka {
+    .nutka{
         width: 360px;
         margin: 0 auto;
     }
-    .page_3 h2 {
+    .page_3 h2{
         padding-top: 20px;
         margin-bottom: 40px;
     }
-    .as {
+    .as{
         display: inline;
     }
-    .as p {
+    .as p{
         margin-left: 10px;
     }
-    .page_6 h2 {
+    .page_6 h2{
         text-align: center;
     }
-    .page_6 p {
+    .page_6 p{
         width: 100%;
         text-align: center;
         margin-left: 10px;
     }
-    .start p {
+    .start p{
         width: 100%;
         margin-right: 0;
+
     }
-    .padval .wrap {
+    .padval .wrap{
         display: inline;
     }
-    .start {
+    .start{
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
-    }
-    .start img {
-        width: 240px;
 
+    }
+    .start img{
+        width: 240px;
+        
         height: auto;
     }
-    .page_3 .nutka {
+    .page_3 .nutka{
         margin-left: auto;
         margin-right: auto;
     }
-    .center * {
+    .center *{
         text-align: center;
     }
+
+    
+
 }
 
 @media screen and (max-width: 320px) {
