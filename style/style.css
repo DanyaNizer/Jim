@@ -855,6 +855,26 @@ header .wrap {
     
 
 }
+@media screen and (max-width: 376px) {
+    .center_blok{
+        width: 100%;
+     }
+    .center_blok h1{
+        margin-left: 10px;
+    }
+    .center_blok p{
+        margin-left: 10px;
+    }
+    .nutka{
+        width: 85%;
+    }
+    .page_2 img{
+        width: 100%;
+    }
+    .page_3 .nutka img{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .logo {
