@@ -33,6 +33,14 @@ header .wrap {
     margin-right: 112px;
 }
 
+#menu_btn {
+    display: none;
+}
+
+#menu_btn_cl {
+    display: none;
+}
+
 .menu {
     width: 518px;
     display: flex;
@@ -740,12 +748,49 @@ header .wrap {
         padding: 7px 9.5px;
         display: none;
     }
+
+    #menu_btn {
+        display: block;
+        font-size: 30px;
+        color: #e6e6e6;
+        position: absolute;
+        right: 40px;
+    }
+
+    #menu_btn_cl {
+        display: block;
+        font-size: 30px;
+        color: #e6e6e6;
+        position: relative;
+        bottom: 29vh;
+        left: 18vw;
+    }
+
     .menu {
         margin-right: 39px;
-        display: none;
+        width: 50vw;
+        height: 100vh;
+        background-color: #273947;
+        position: fixed;
+        left: -100vw;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+    }
+
+    .menu.active {
+        left: 0vh;
+        transition: all 0.5s;
+    }
+    .menu li {
+        padding: 20px 0;
     }
     .menu li a {
-        font-size: 13px;
+        font-size: 30px;
     }
     .premium {
         justify-content: left;
@@ -793,85 +838,80 @@ header .wrap {
     .center_blok a {
         margin: 0 auto;
     }
-    .page_2 h2{
+    .page_2 h2 {
         padding-top: 60px;
         text-align: center;
         margin-left: 0;
         margin-bottom: 25px;
     }
-    .bot_block{
+    .bot_block {
         flex-direction: column-reverse;
     }
-    .nutka{
+    .nutka {
         width: 360px;
         margin: 0 auto;
     }
-    .page_3 h2{
+    .page_3 h2 {
         padding-top: 20px;
         margin-bottom: 40px;
     }
-    .as{
+    .as {
         display: inline;
     }
-    .as p{
+    .as p {
         margin-left: 10px;
     }
-    .page_6 h2{
+    .page_6 h2 {
         text-align: center;
     }
-    .page_6 p{
+    .page_6 p {
         width: 100%;
         text-align: center;
         margin-left: 10px;
     }
-    .start p{
+    .start p {
         width: 100%;
         margin-right: 0;
-
     }
-    .padval .wrap{
+    .padval .wrap {
         display: inline;
     }
-    .start{
+    .start {
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
-
     }
-    .start img{
+    .start img {
         width: 240px;
-        
+
         height: auto;
     }
-    .page_3 .nutka{
+    .page_3 .nutka {
         margin-left: auto;
         margin-right: auto;
     }
-    .center *{
+    .center * {
         text-align: center;
     }
-
-    
-
 }
 @media screen and (max-width: 376px) {
-    .center_blok{
+    .center_blok {
         width: 100%;
-     }
-    .center_blok h1{
+    }
+    .center_blok h1 {
         margin-left: 10px;
     }
-    .center_blok p{
+    .center_blok p {
         margin-left: 10px;
     }
-    .nutka{
+    .nutka {
         width: 85%;
     }
-    .page_2 img{
+    .page_2 img {
         width: 100%;
     }
-    .page_3 .nutka img{
+    .page_3 .nutka img {
         width: 100%;
     }
 }
